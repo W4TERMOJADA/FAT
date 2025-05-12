@@ -1,9 +1,10 @@
 
 public class Fat {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	private Data data;
+	private Metadata metadata;
+	
+	public Fat(int numClusters) {
+		data.setClusters(numClusters);
 	}
 
 }
