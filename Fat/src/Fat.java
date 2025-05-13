@@ -1,10 +1,17 @@
+import java.util.List;
 
 public class Fat {
-	private Data data;
-	private Metadata metadata;
+	
+	private List<Cluster> clusters;
 	
 	public Fat(int numClusters) {
-		data.setClusters(numClusters);
+		for(int i = 0; i<numClusters; i++) {
+			createCluster(numClusters);
+		}
+	}
+	
+	private static void createCluster(int numClusters) {
+		Cluster cluster = new Cluster();
 	}
 
 }
