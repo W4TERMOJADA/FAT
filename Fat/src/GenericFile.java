@@ -5,5 +5,6 @@ public abstract class GenericFile<T> {
 	protected T content;
 	
 	
+	
 
 }
