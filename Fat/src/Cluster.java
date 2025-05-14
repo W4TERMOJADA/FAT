@@ -18,6 +18,14 @@ public class Cluster {
     	this.id=nextId++;
     	this.A = true;
     	this.N =-1;
+    	this.D=false;
     }
+
+	@Override
+	public String toString() {	
+		return "Cluster ID: " + id + " [A=" + A + ", D=" + D + ", N=" + N + ", genericFile=" + genericFile + "]";
+	}
+    
+    
 	
 }
